@@ -15,6 +15,8 @@
 		0921A4BC1C59BB08003722F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0921A4BA1C59BB08003722F4 /* LaunchScreen.storyboard */; };
 		0921A4C71C59BB09003722F4 /* SJQuartz2dTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921A4C61C59BB09003722F4 /* SJQuartz2dTests.m */; };
 		0921A4D21C59BB09003722F4 /* SJQuartz2dUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921A4D11C59BB09003722F4 /* SJQuartz2dUITests.m */; };
+		0921A4E11C59BB34003722F4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921A4E01C59BB34003722F4 /* CustomView.m */; };
+		0921A5271C5A00C1003722F4 /* c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0921A5261C5A00C1003722F4 /* c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0921A4CD1C59BB09003722F4 /* SJQuartz2dUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJQuartz2dUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0921A4D11C59BB09003722F4 /* SJQuartz2dUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJQuartz2dUITests.m; sourceTree = "<group>"; };
 		0921A4D31C59BB09003722F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0921A4DF1C59BB34003722F4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		0921A4E01C59BB34003722F4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		0921A5261C5A00C1003722F4 /* c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		0921A4AB1C59BB08003722F4 /* SJQuartz2d */ = {
 			isa = PBXGroup;
 			children = (
+				0921A5261C5A00C1003722F4 /* c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg */,
 				0921A4AF1C59BB08003722F4 /* AppDelegate.h */,
 				0921A4B01C59BB08003722F4 /* AppDelegate.m */,
 				0921A4B21C59BB08003722F4 /* ViewController.h */,
 				0921A4B31C59BB08003722F4 /* ViewController.m */,
+				0921A4DF1C59BB34003722F4 /* CustomView.h */,
+				0921A4E01C59BB34003722F4 /* CustomView.m */,
 				0921A4B51C59BB08003722F4 /* Main.storyboard */,
 				0921A4B81C59BB08003722F4 /* Assets.xcassets */,
 				0921A4BA1C59BB08003722F4 /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				0921A4BC1C59BB08003722F4 /* LaunchScreen.storyboard in Resources */,
 				0921A4B91C59BB08003722F4 /* Assets.xcassets in Resources */,
+				0921A5271C5A00C1003722F4 /* c8177f3e6709c93d0c77051a9b3df8dcd0005451.jpg in Resources */,
 				0921A4B71C59BB08003722F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0921A4B41C59BB08003722F4 /* ViewController.m in Sources */,
+				0921A4E11C59BB34003722F4 /* CustomView.m in Sources */,
 				0921A4B11C59BB08003722F4 /* AppDelegate.m in Sources */,
 				0921A4AE1C59BB08003722F4 /* main.m in Sources */,
 			);
@@ -412,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJQuartz2d/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJQuartz2d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJQuartz2d/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJQuartz2d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
